@@ -1,0 +1,58 @@
+✦ Todos los endpoints requieren autenticación Basic Auth con usuario y contraseña, menos el empoint publico
+
+• GET:http://localhost:8080/public
+
+• GET: http://localhost:8080/cursos
+
+THUNDERCLIENT O POSTMAN::Auth -> Basic
+
+usuario:admin
+contraseña:1234
+
+usuario:estudiante
+contraseña:1234
+
+• POST:http://localhost:8080/cursos
+
+THUNDERCLIENT O POSTMAN:
+Auth -> Basic
+
+usuario:admin
+contraseña:1234
+
+Body-> JSON
+    {
+  "materia": "Matemática",
+  "curso": "1ro A"
+}
+
+━━━━━━━━━━
+
+• GET:http://localhost:8080/docentes
+
+THUNDERCLIENT O POSTMAN:
+Auth -> Basic
+
+usuario:docente
+contraseña:1234
+
+usuario:admin
+contraseña:1234
+
+
+• POST:http://localhost:8080/docentes
+
+THUNDERCLIENT O POSTMAN::
+Auth -> Basic
+
+usuario:admin
+contraseña:1234
+
+Body-> JSON
+{
+    "nombre": "Ivan",
+    "apellido": "Aquimedez",
+    "materia": "Biologia",
+    "curso": "3ro B"
+  }
+
