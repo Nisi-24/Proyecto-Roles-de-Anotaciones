@@ -1,5 +1,5 @@
 # Proyecto Roles de Anotaciones
-Aplicación web desarrollada con Spring Boot que permite gestionar cursos y docentes en un colegio, implementando seguridad basada en roles y permisos mediante Spring Security.
+Aplicación web desarrollada con Spring Boot que permite gestionar cursos y docentes en un colegio, implementando seguridad basada en roles y permisos mediante Spring Security (sin base de datos)
 
 Roles y Funcionalidades:
 ADMIN: CRUD de docentes, agregar cursos, ver todos los cursos y docentes.
